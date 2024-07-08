@@ -1,0 +1,100 @@
+li {
+  list-style: none;
+}
+
+span {
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+
+#span1 {
+  background-color: red;
+}
+
+#span2 {
+  background-color: green;
+}
+
+#span3 {
+  background-color: blue;
+}
+
+.footer {
+  line-height: 2;
+  font-size: larger;
+}
+
+.box {
+  display: flex;
+  border: solid 2px lightskyblue;
+  width: 70%;
+  height: 80%;
+  position: relative;
+  top: 190px;
+  left: 90px;
+  background: lightgreen;
+}
+
+.online {
+  font-size: 400%;
+  margin-right: 44px;
+
+}
+/*.box1 {
+  border: solid 2px black;
+  display: flex;
+  width: 30%;
+  height: 80%;
+}*/
+
+.left-side {
+  flex: 1;
+  margin-right: 60%;
+  font-size: x-large;
+  margin-right: 0;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #000;
+  margin-left: 0;
+}
+
+.right-side {
+  flex: 1;
+  text-align: center;
+  margin: 40px
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.side-cart {
+  display: flex;
+}
+
+.box-left {
+  flex: 1;
+}
+
+.box-right {
+  flex: 2;
+  padding-left: 10px;
+  background-color: radial-gradient(white, white, green);
+}
+
+.box-right hr {
+  margin-top: 0;
+}
+
+#order {
+  text-decoration: underline;
+  border: none;
+  background-color: lightgreen;
+}
