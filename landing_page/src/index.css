@@ -2,6 +2,7 @@ body {
   width: 90%;
   height: 90vh;
   margin: 6px;
+  background-color: rgb(207, 211, 202);
 }
 
 li {
@@ -33,12 +34,12 @@ span {
 
 .box {
   display: flex;
-  border: solid 2px lightskyblue;
-  width: 70%;
+  border: solid 2px whitesmoke;
+  width: 80%;
   height: 80%;
   position: relative;
   top: 190px;
-  left: 90px;
+  left: 5%;
   background: lightgreen;
 }
 
@@ -62,7 +63,7 @@ span {
 }
 
 .vertical-line {
-  width: 2px;
+  width: 1px;
   background-color: #000;
   margin-left: 0;
 }
@@ -120,5 +121,10 @@ span {
   top: 60%;
   left: 30%;
   padding: 20px;
-  transform: rotateX('20deg'),
+  transform: rotate(-20deg);
+}
+
+.sideimg {
+ width: 70%;
+ height: 60%;  
 }

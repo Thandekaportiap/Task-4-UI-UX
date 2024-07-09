@@ -1,4 +1,4 @@
-import Hoodie from "../assets/hoodie.jfif"
+
 import Hoodierbg from "../assets/hoodie-rbg.png"
 
 import React from 'react'
@@ -22,7 +22,7 @@ function hero() {
 
         <div class="side-cart" >
           <div class="box-left">
-            <img src={Hoodierbg} alt="Kids Clothes" className="image" />
+            <img src={Hoodierbg} alt="Kids Clothes" className="image sideimg" />
           </div>
           <div class="box-right">
             <hr />
@@ -33,7 +33,7 @@ function hero() {
           </div>
           <div class="side-cart" ></div>
           <div class="box-left">
-            <img src={Hoodierbg} alt="Kids Clothes" className="image" />
+            <img src={Hoodierbg} alt="Kids Clothes" className="image sideimg" />
           </div>
           <div class="box-right">
             <hr />
@@ -44,7 +44,7 @@ function hero() {
           </div>
           <div class="side-cart" ></div>
           <div class="box-left">
-            <img src={Hoodierbg} alt="Kids Clothes" className="image" />
+            <img src={Hoodierbg} alt="Kids Clothes" className="image sideimg" />
           </div>
           <div class="box-right">
             <hr />
