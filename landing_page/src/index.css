@@ -1,3 +1,9 @@
+body {
+  width: 90%;
+  height: 90vh;
+  margin: 6px;
+}
+
 li {
   list-style: none;
 }
@@ -77,6 +83,10 @@ span {
 
 .side-cart {
   display: flex;
+  flex-direction: column;
+   position: absolute; 
+   right: 0;
+    gap: 2
 }
 
 .box-left {
@@ -86,7 +96,7 @@ span {
 .box-right {
   flex: 2;
   padding-left: 10px;
-  background-color: radial-gradient(white, white, green);
+  background-color: radial-gradient(green,white, white);
 }
 
 .box-right hr {
@@ -97,4 +107,18 @@ span {
   text-decoration: underline;
   border: none;
   background-color: lightgreen;
+}
+
+.image, .save {
+  background-image: radial-gradient(green, rgb(221, 241, 213), white);
+}
+
+.save {
+  border: solid 2px white;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  padding: 20px;
+  transform: rotateX('20deg'),
 }

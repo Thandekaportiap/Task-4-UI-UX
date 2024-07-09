@@ -6,7 +6,7 @@ function footer() {
     <div className='box'>
       <h1 className='online'>For Online <br/> <span id="order">Order</span></h1>
       <div className='left-side'>
-        <li className='footer'>Color <span id="span1">1</span><span id="span2">1</span><span id="span3">3</span></li>
+        <li className='footer'>Color <span id="span1">1</span><span id="span2">1</span><span id="span3">1</span></li>
         <li className='footer'>Size <span id="span">XS</span><span id="span">S</span><span id="span">M</span><span id="span">L</span><br/>
         <span id="span">XL</span><span id="span">XXL</span><span id="span">XXX-l</span></li>
       </div>
