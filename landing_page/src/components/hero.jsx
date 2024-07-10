@@ -4,6 +4,12 @@ import Hoodierbg from "../assets/hoodie-rbg.png"
 import React from 'react'
 
 function hero() {
+
+  const addToCart = () =>{
+    alert("Added to your cart!")
+  }
+
+
   return (
     <>
       <div style={{ display: "flex", flexDirection: "row" }}>
@@ -29,7 +35,7 @@ function hero() {
             <h3>kids clothes</h3>
             <p>get all trends</p>
             <p>US $27-30</p>
-            <button className="add-to-cart">Add to Cart</button>
+            <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
           </div>
           <div class="side-cart" ></div>
           <div class="box-left">
@@ -40,7 +46,7 @@ function hero() {
             <h3>kids clothes</h3>
             <p>get all trends</p>
             <p>US $27-30</p>
-            <button className="add-to-cart">Add to Cart</button>
+            <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
           </div>
           <div class="side-cart" ></div>
           <div class="box-left">
@@ -51,7 +57,7 @@ function hero() {
             <h3>kids clothes</h3>
             <p>get all trends</p>
             <p>US $27-30</p>
-            <button className="add-to-cart">Add to Cart</button>
+            <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
           </div>
         </div>
 

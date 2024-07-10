@@ -1,7 +1,12 @@
 import React from 'react'
-import { FaStar } from 'react-icons/fa6' 
+import { FaStar } from 'react-icons/fa6';
 
 function footer() {
+
+  const addToCart = () =>{
+    alert("Added to your cart!")
+  }
+
   return (
     <div className='box'>
       <h1 className='online'>For Online <br/> <span id="order">Order</span></h1>
@@ -20,7 +25,7 @@ function footer() {
     <FaStar size={30}/>
     </p>
     <p style={{fontWeight:"bolder", fontSize:"180%"}}>$79-00</p>
-    <button class="add-to-cart">Add to Cart</button>
+    <button class="add-to-cart" onClick={addToCart}>Add to Cart</button>
   </div>
     </div>
   )
